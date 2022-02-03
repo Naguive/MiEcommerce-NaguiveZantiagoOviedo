@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="css/footer-abajo.css" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <img src="/assets/MiEcommerce.png" alt="" class="logo" />
+    </header>
+    <main class="main-container">
+      <div class="background-login-aqua">
+        <div class="component-login">
+          <div class="form">
+            <p class="text-hola">¡Registrate!</p>
+            <form action="" class="form-inputs">
+              <input
+                type="text"
+                class="username-input"
+                placeholder="Tu email"
+              />
+              <input
+                type="password"
+                class="user-password"
+                placeholder="Tu nueva contraseña"
+              />
+              <input
+                type="password"
+                class="user-password"
+                placeholder="Repite tu contraseña"
+              />
+              <button class="button-register">Iniciar Sesión</button>
+            </form>
+          </div>
+          <div class="text-no-cuenta">
+            <p class="tienes-cuenta">¿No tienes cuenta?</p>
+            <a href="/login" class="text-login">Inicia Sesión</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <%- include('../partials/footer.ejs') %>
+  </body>
+</html>
